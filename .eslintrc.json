@@ -29,7 +29,6 @@
     "warnOnUnsupportedTypeScriptVersion": true
   },
   "rules": {
-    "adjacent-overload-signatures": true,
     "indent": "off",
     "no-console": "warn",
     "@typescript-eslint/no-non-null-assertion": "warn",
@@ -38,12 +37,6 @@
     "@typescript-eslint/prefer-interface": "off",
     "no-fallthrough": "warn",
     "@typescript-eslint/class-name-casing": "off",
-    "@typescript-eslint/no-object-literal-type-assertion": [
-      "error",
-      {
-        "allowAsParameter": true
-      }
-    ],
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/interface-name-prefix": "off"
   },
