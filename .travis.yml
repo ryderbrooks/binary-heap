@@ -51,5 +51,5 @@ deploy:
     email: ryderbrooks@gmail.com
     api_key: $NPM_TOKEN
     on:
-      tags: true
+      tags: false
 
