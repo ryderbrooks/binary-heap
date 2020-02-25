@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "ESNext",
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -39,7 +39,7 @@
     "mode": "file",
     "out": "docs",
     "ignoreCompilerErrors": false,
-    "module": "commonjs",
+    "module": "ESNext",
     "target": "ES6",
     "verbose": true,
     "excludeNotExported": false,

@@ -1,4 +1,4 @@
-import { Heap }      from './BaseHeap';
+import { Heap }      from './BaseHeap.js';
 import { IHeapable } from '..';
 
 

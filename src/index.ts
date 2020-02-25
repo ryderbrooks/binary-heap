@@ -1,18 +1,18 @@
-import { MinHeap }          from './lib/MinHeap';
+import { MinHeap }          from './lib/MinHeap.js';
 import { IHeap, IHeapable } from './meta/interfaces';
-import { DynamicMinHeap }   from './lib/DynamicMinHeap';
-import { DynamicMaxHeap }   from './lib/DynamicMaxHeap';
-import { MaxHeap }          from './lib/MaxHeap';
+import { DynamicMinHeap }   from './lib/DynamicMinHeap.js';
+import { DynamicMaxHeap }   from './lib/DynamicMaxHeap.js';
+import { MaxHeap }          from './lib/MaxHeap.js';
 
 
 export { IHeap } from './meta/interfaces';
 export {IHeapable} from './meta/interfaces';
 export {IIndexable} from './meta/interfaces';
 
-export { MinHeap }        from './lib/MinHeap';
-export { MaxHeap }        from './lib/MaxHeap';
-export { DynamicMinHeap } from './lib/DynamicMinHeap';
-export { DynamicMaxHeap } from './lib/DynamicMaxHeap';
+export { MinHeap }        from './lib/MinHeap.js';
+export { MaxHeap }        from './lib/MaxHeap.js';
+export { DynamicMinHeap } from './lib/DynamicMinHeap.js';
+export { DynamicMaxHeap } from './lib/DynamicMaxHeap.js';
 
 export function createMinHeap<T extends IHeapable>( nChildren?: number ): IHeap<T> {
   return new MinHeap(nChildren);

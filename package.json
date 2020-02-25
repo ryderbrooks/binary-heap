@@ -1,7 +1,8 @@
 {
   "name": "@ryder_brooks/binary-heap",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

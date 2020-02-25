@@ -1,4 +1,4 @@
-import { DynamicHeap } from './DynamicHeap';
+import { DynamicHeap } from './DynamicHeap.js';
 
 
 
