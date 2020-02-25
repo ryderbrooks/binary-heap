@@ -48,7 +48,7 @@
     "typescript": "latest"
   },
   "jest": {
-    "preset": "ts-jest",
+    "preset": "ts-jest/presets/js-with-ts",
     "verbose": true,
     "testResultsProcessor": "jest-sonar-reporter",
     "coverageDirectory": "reports/coverage",
