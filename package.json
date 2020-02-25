@@ -53,7 +53,7 @@
     "testResultsProcessor": "jest-sonar-reporter",
     "coverageDirectory": "reports/coverage",
     "testMatch": [
-      "**/src/__tests__/*.test.ts"
+      "**/dist/__tests__/*.test.js"
     ]
   },
   "jestSonar": {
