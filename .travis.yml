@@ -31,20 +31,20 @@ after_success:
 
 
 deploy:
-  - provider: pages
-    skip_cleanup: true
-    local_dir: docs/
-    github_token: $GITHUB_TOKEN
-    on:
-      tags: true
-
-  - provider: releases
-    api_key: $GITHUB_TOKEN
-    file_glob: true
-    file: lib.tgz
-    skip_cleanup: true
-    on:
-      tags: true
+#  - provider: pages
+#    skip_cleanup: true
+#    local_dir: docs/
+#    github_token: $GITHUB_TOKEN
+#    on:
+#      tags: true
+#
+#  - provider: releases
+#    api_key: $GITHUB_TOKEN
+#    file_glob: true
+#    file: lib.tgz
+#    skip_cleanup: true
+#    on:
+#      tags: true
 
   - provider: npm
     skip_cleanup: true
