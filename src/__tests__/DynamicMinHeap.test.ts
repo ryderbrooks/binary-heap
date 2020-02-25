@@ -1,4 +1,4 @@
-import { createMinDynamicHeap } from '../index';
+import { createMinDynamicHeap } from '../index.js';
 
 
 describe('#DynamicMinHeap', () => {

@@ -1,4 +1,4 @@
-import { Heap } from '../lib/BaseHeap';
+import { Heap } from '../lib/BaseHeap.js';
 
 
 describe('#Heap', () => {

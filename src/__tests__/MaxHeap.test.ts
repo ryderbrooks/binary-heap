@@ -1,4 +1,4 @@
-import { createMaxHeap } from '../index';
+import { createMaxHeap } from '../index.js';
 
 
 describe('#MaxHeap', () => {

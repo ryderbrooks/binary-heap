@@ -1,4 +1,4 @@
-import { createMaxDynamicHeap } from '../index';
+import { createMaxDynamicHeap } from '../index.js';
 
 
 describe('#DynamicMaxHeap', () => {

@@ -1,4 +1,4 @@
-import { createMinHeap } from '../index';
+import { createMinHeap } from '../index.js';
 
 
 describe('#MinHeap', ()=>{
